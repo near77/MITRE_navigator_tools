@@ -36,7 +36,7 @@ def mitre_navigator_tool(primary:str, secondary:str, store_path:str) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--primary",help = "Primary MITRE navigator table path (.json)")
+    parser.add_argument("--primary", help = "Primary MITRE navigator table path (.json)")
     parser.add_argument("--secondary", help = "Secondary MITRE navigator table path (.json)")
     parser.add_argument("--store_path", help = "The path to store the result (.json)")
     args = parser.parse_args()
